@@ -19,3 +19,6 @@ set ruler
 syntax enable
 set background=dark
 colorscheme solarized
+
+# define Git commit message
+au Filetype gitcommit set tw=72
